@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h1 style="text-align:center">Clasificador de Texto</h1>
+
+            <h2>
+            <form action="/", method="post" enctype="multipart/form-data">
+
+                <label for="texto">Texto (de 2 a 40 caracteres):</label>
+
+                <input type="text" id="texto" name="texto" required
+                       minlength="2" maxlength="40" size="40">
+                                
+                <input type="submit" value="Clasificar Texto">
+            </form>
+            </h2>
+            
+
+        {% if clasificador %}
+            <p class="text-center">El texto se clasifica como: {{clasificador}} </p>
+        {% endif %}
+
+    </body>
+</html>

@@ -12,14 +12,9 @@ def principal():
 
 @app.route('/', methods=['POST'])
 def logica():
-    #textFile = request.files.get('texto', None) 
-    req = request.get_json() 
-    textFile = req['text']
-    text_path = "./texto/" + textFile.filename
-    textFile.save(text_path)
-
-    #text = "texto"
-    classification = clasificador(text_path)
+ 
+    text = request.form.get("texto")
+    classification = clasificador(text)
 
 
     return render_template('index.html', clasificador=classification) 

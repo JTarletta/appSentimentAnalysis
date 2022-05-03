@@ -16,11 +16,11 @@ Using:
 git clone https://github.com/JTarletta/appSentimentAnalysis
 ```
 
-* In the directory of *requirements.txt* file execute:
+* On the directory of *requirements.txt* file execute:
 ```
 	pip install -r requirements.txt
 ```  
-* In the directory of *app.py* file execute:
+* On the directory of *app.py* file execute:
 ```
 	python app.py
 ```

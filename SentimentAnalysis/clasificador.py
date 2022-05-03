@@ -1,10 +1,11 @@
 import flair
+import emoji
 
-texto = "Hello World!"
+texto = "Hello World! 😀"
 model = flair.models.TextClassifier.load('en-sentiment')
 def clasificador(text=texto):
     
-    
+    text = emoji.demojize(text, delimiters=(" ", ""))
     text = flair.data.Sentence(text)
     model.predict(text)
     
@@ -14,4 +15,4 @@ def clasificador(text=texto):
     print(texto, clasificado, porcentaje)
     
     return clasificado, porcentaje
-clasificador(texto)
+#clasificador(texto)

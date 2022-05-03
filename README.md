@@ -6,17 +6,20 @@ Using:
 - Flask 
 - Flair
 
-##Guide
+## Guide
 
-You must have previously installed *python* and *pip*, and preferably also *git*.
+* You must have previously installed *python* and *pip*, and preferably also *git*.
 
-Download the Repository from a command line:
+* Download the Repository from a command line:
 
 	git clone https://github.com/JTarletta/appSentimentAnalysis
   
-In the directory of *app.py* file execute:
+* In the directory of *requirements.txt* file execute:
+	pip install -r requirements.txt
+  
+* In the directory of *app.py* file execute:
 
 	python app.py
 
-Open the URL (usually **127:0.0.1:8000**) in your browser:
+* Open the URL (usually **127:0.0.1:8000**) in your browser:
 	 

@@ -26,4 +26,4 @@ A simple approach to developing a web application for Sentiment Analysis classif
 ```
 	python app.py
 ```
-* Finally open the URL (usually **127:0.0.1:8000**) in your browser.	 
+* Finally open the URL (usually **127:0.0.1:5000**) in your browser.	 

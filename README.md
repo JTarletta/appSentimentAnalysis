@@ -13,7 +13,7 @@ Using:
 * Download the Repository from a command line:
 
 ```
-git clone https://github.com/JTarletta/appSentimentAnalysis
+	git clone https://github.com/JTarletta/appSentimentAnalysis
 ```
 
 * On the directory of *requirements.txt* file execute:
